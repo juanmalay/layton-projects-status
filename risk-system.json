@@ -1,0 +1,18 @@
+{
+  "name": "Risk System",
+  "status": "Idea",
+  "progress": 15,
+  "type": "Sistema",
+  "priority": "Media",
+  "modules": [
+    { "name": "Definición funcional", "progress": 40 },
+    { "name": "Modelo de riesgo", "progress": 20 },
+    { "name": "Arquitectura", "progress": 10 }
+  ],
+  "nextSteps": [
+    "Definir alcance real",
+    "Investigar modelos de riesgo",
+    "Diseñar arquitectura base",
+    "Validar uso comercial"
+  ]
+}

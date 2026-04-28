@@ -1,0 +1,19 @@
+{
+  "name": "Localkit Platform",
+  "status": "MVP",
+  "progress": 60,
+  "type": "Negocio",
+  "priority": "Alta",
+  "modules": [
+    { "name": "Landing", "progress": 80 },
+    { "name": "Deploy en Vercel", "progress": 70 },
+    { "name": "Generador automático", "progress": 50 },
+    { "name": "Sistema de pagos", "progress": 20 }
+  ],
+  "nextSteps": [
+    "Implementar pagos",
+    "Optimizar generación automática",
+    "Preparar propuesta comercial",
+    "Validar primeros clientes"
+  ]
+}

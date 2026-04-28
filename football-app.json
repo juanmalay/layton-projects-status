@@ -1,0 +1,19 @@
+{
+  "name": "Football App",
+  "status": "Desarrollo",
+  "progress": 40,
+  "type": "Producto",
+  "priority": "Media",
+  "modules": [
+    { "name": "Backend Spring Boot", "progress": 60 },
+    { "name": "API Matches", "progress": 70 },
+    { "name": "Flutter App", "progress": 30 },
+    { "name": "UI/UX", "progress": 20 }
+  ],
+  "nextSteps": [
+    "Conectar frontend con backend",
+    "Diseñar pantallas principales",
+    "Agregar favoritos",
+    "Optimizar endpoints"
+  ]
+}

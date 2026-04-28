@@ -6,12 +6,16 @@
   "priority": "Alta",
   "modules": [
     { "name": "Home", "progress": 100 },
-    { "name": "Mapa", "progress": 90 },
-    { "name": "Planner", "progress": 75 }
+    { "name": "Servicios", "progress": 90 },
+    { "name": "Mapa", "progress": 95 },
+    { "name": "Planificador", "progress": 80 },
+    { "name": "Eventos", "progress": 85 },
+    { "name": "Publicación Android", "progress": 70 }
   ],
   "nextSteps": [
     "Publicar en Play Store",
-    "Optimizar UI",
-    "Crear material comercial"
+    "Optimizar diseño final",
+    "Preparar material de venta",
+    "Buscar alianzas con municipios"
   ]
 }

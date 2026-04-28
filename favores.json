@@ -1,0 +1,17 @@
+{
+  "name": "Favores App",
+  "status": "Idea",
+  "progress": 10,
+  "type": "Producto",
+  "priority": "Baja",
+  "modules": [
+    { "name": "Concepto", "progress": 50 },
+    { "name": "Modelo de negocio", "progress": 20 }
+  ],
+  "nextSteps": [
+    "Definir propuesta de valor",
+    "Validar mercado",
+    "Diseñar MVP",
+    "Evaluar si vale la pena continuar"
+  ]
+}
