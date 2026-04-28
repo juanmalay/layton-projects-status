@@ -1,0 +1,17 @@
+{
+  "name": "Turisfera",
+  "status": "Activo",
+  "progress": 85,
+  "type": "Producto",
+  "priority": "Alta",
+  "modules": [
+    { "name": "Home", "progress": 100 },
+    { "name": "Mapa", "progress": 90 },
+    { "name": "Planner", "progress": 75 }
+  ],
+  "nextSteps": [
+    "Publicar en Play Store",
+    "Optimizar UI",
+    "Crear material comercial"
+  ]
+}
