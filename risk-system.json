@@ -1,18 +1,25 @@
 {
   "name": "Risk System",
   "status": "Idea",
-  "progress": 15,
-  "type": "Sistema",
+  "progress": 10,
+  "type": "Exploracion",
   "priority": "Media",
-  "modules": [
-    { "name": "Definición funcional", "progress": 40 },
-    { "name": "Modelo de riesgo", "progress": 20 },
-    { "name": "Arquitectura", "progress": 10 }
+  "summary": "Sistema conceptual de analisis de riesgo. Actualmente en fase de investigacion sin implementacion tecnica.",
+  "modules": [],
+  "missing": [
+    "Definir problema especifico de riesgo",
+    "Identificar usuarios objetivo",
+    "Modelo de evaluacion",
+    "Casos de uso reales"
+  ],
+  "risks": [
+    "Complejidad alta sin alcance definido",
+    "Puede requerir datos externos o regulaciones",
+    "Falta de foco en problema concreto"
   ],
   "nextSteps": [
-    "Definir alcance real",
-    "Investigar modelos de riesgo",
-    "Diseñar arquitectura base",
-    "Validar uso comercial"
+    "Definir alcance del sistema",
+    "Investigar modelos existentes",
+    "Determinar viabilidad tecnica y comercial"
   ]
 }

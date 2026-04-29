@@ -1,17 +1,25 @@
 {
   "name": "Favores App",
   "status": "Idea",
-  "progress": 10,
-  "type": "Producto",
+  "progress": 5,
+  "type": "Exploracion",
   "priority": "Baja",
-  "modules": [
-    { "name": "Concepto", "progress": 50 },
-    { "name": "Modelo de negocio", "progress": 20 }
+  "summary": "Concepto inicial de app basada en intercambio de favores. Solo investigacion, sin codigo ni validacion real.",
+  "modules": [],
+  "missing": [
+    "Definir problema real",
+    "Validar si existe mercado",
+    "Definir MVP",
+    "Modelo de negocio"
+  ],
+  "risks": [
+    "Puede no tener mercado claro",
+    "Idea demasiado abierta sin enfoque",
+    "Alto riesgo de no ejecutarse"
   ],
   "nextSteps": [
-    "Definir propuesta de valor",
-    "Validar mercado",
-    "Diseñar MVP",
-    "Evaluar si vale la pena continuar"
+    "Escribir propuesta clara de valor",
+    "Validar con usuarios reales",
+    "Definir si se convierte en MVP o se descarta"
   ]
 }
