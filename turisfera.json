@@ -1,150 +1,118 @@
 {
   "name": "Turisfera",
-  "status": "Desarrollo",
-  "progress": 57,
+  "status": "MVP",
+  "progress": 78,
   "type": "Producto",
   "priority": "Alta",
-  "summary": "Monorepo de producto turistico con app Flutter funcional en arquitectura local-first, backend Spring Boot parcial y documentacion de migracion. La app incluye modulos de municipios, lugares, actividades, mapa, servicios, traductor, perfil, seguridad y planner, pero conserva codigo legacy, datos locales incompletos, Home con acciones aun no completamente conectadas y backend no consolidado como fuente principal de datos.",
-  "version": "Flutter 1.0.0+1 / Backend 0.0.1-SNAPSHOT",
+  "summary": "Aplicación de turismo móvil enfocada en exploración, planificación y experiencia local por municipio. El MVP ya cuenta con Home dinámico por destino, clima en tiempo real, planner interactivo, onboarding rediseñado y módulos principales funcionales sin datos falsos.",
+  "version": "0.9.0",
   "modules": [
     {
-      "name": "Monorepo y documentacion",
-      "status": "Desarrollo",
-      "progress": 55,
-      "description": "Existe estructura con apps/mobile_flutter, backend/springboot_api y docs. README, TURISFERA_STATE.md y plan de migracion documentan vision, riesgos y fases, pero faltan documentos objetivo como MODULE_STATUS, SYSTEM_ARCHITECTURE, workflows y admin_web."
-    },
-    {
-      "name": "App movil Flutter",
-      "status": "MVP",
-      "progress": 70,
-      "description": "Aplicacion Flutter con soporte Android, iOS, web, desktop, localizacion, assets, onboarding y multiples pantallas. Funciona principalmente con JSON locales y mezcla arquitectura por features con carpetas legacy."
-    },
-    {
-      "name": "Sistema de diseno y widgets core",
-      "status": "Desarrollo",
-      "progress": 75,
-      "description": "Hay tema, colores, espaciado, radios, sombras y widgets reutilizables Turisfera. La documentacion indica que el estilo de HomeScreen debe terminar de propagarse al resto de pantallas."
+      "name": "Sistema de diseño",
+      "status": "Activo",
+      "progress": 90,
+      "description": "Design system implementado y aplicado en la mayoría de pantallas principales con componentes reutilizables."
     },
     {
       "name": "Home",
-      "status": "Desarrollo",
-      "progress": 35,
-      "description": "HomeScreen define la identidad visual principal, pero muchas acciones estan vacias o no conectadas a flujos reales, el contenido esta hardcodeado y depende de al menos un asset reportado como faltante."
+      "status": "Activo",
+      "progress": 90,
+      "description": "Pantalla principal rediseñada, con clima dinámico por municipio, cambio de destino, recomendaciones reales y sin contenido hardcodeado."
     },
     {
-      "name": "Municipios",
-      "status": "Desarrollo",
-      "progress": 70,
-      "description": "Feature con domain, data, presentation, datasource local, datasource remoto, repositorio con fallback y caso de uso. Tambien existe backend para municipios, pero la integracion UI/backend no esta consolidada en todo el producto."
+      "name": "Onboarding",
+      "status": "Activo",
+      "progress": 85,
+      "description": "Flujo simplificado, sin duplicaciones, con selector de país, municipio y contacto de emergencia, más animaciones y UX mejorada."
     },
     {
-      "name": "Lugares y servicios",
-      "status": "Desarrollo",
-      "progress": 65,
-      "description": "Feature de lugares con entidades, repositorio hibrido remoto/local, datasources y utilidades de sugerencias/planificacion. La UI de servicios y lista de lugares existe, pero la cobertura local documentada esta limitada a pocos municipios."
+      "name": "Servicios",
+      "status": "Activo",
+      "progress": 82,
+      "description": "Listado y navegación de servicios por municipio, con integración a mapas y llamadas."
     },
     {
       "name": "Actividades",
-      "status": "MVP",
+      "status": "Activo",
+      "progress": 82,
+      "description": "Listado y detalle de actividades reutilizando estructura de servicios, con información clara y accionable."
+    },
+    {
+      "name": "Mapa",
+      "status": "Activo",
+      "progress": 80,
+      "description": "Mapa interactivo con lugares del municipio, sugerencias y conexión con el planner."
+    },
+    {
+      "name": "Planner",
+      "status": "Activo",
+      "progress": 80,
+      "description": "Generación de itinerarios usando lógica existente, con cards clickeables, bottom sheet de detalle y acciones reales."
+    },
+    {
+      "name": "Trips",
+      "status": "Desarrollo",
+      "progress": 40,
+      "description": "Pantalla ya integrada con empty state profesional, pendiente guardar viajes reales."
+    },
+    {
+      "name": "Perfil",
+      "status": "Desarrollo",
+      "progress": 55,
+      "description": "Muestra datos reales del usuario (país, municipio, idioma, contacto), pendiente edición."
+    },
+    {
+      "name": "Eventos",
+      "status": "Desarrollo",
+      "progress": 60,
+      "description": "Pantalla funcional basada en JSON por municipio, mejorada visualmente."
+    },
+    {
+      "name": "Seguridad",
+      "status": "Activo",
       "progress": 75,
-      "description": "Feature con domain, data, presentation, datasource local, repositorio y detalle de actividad. Consume JSON locales, con cobertura documentada principalmente para Manizales."
+      "description": "Acceso a emergencias y embajadas, integrado con el flujo principal."
     },
     {
       "name": "Parques",
       "status": "Desarrollo",
       "progress": 45,
-      "description": "Existe feature completa por capas y pantallas, ademas de pantallas legacy, pero el datasource nuevo apunta a rutas assets/json/parques_es.json y assets/json/parques_en.json que no aparecen en pubspec ni en el arbol listado; los JSON reales estan bajo municipios/parques."
-    },
-    {
-      "name": "Mapa interactivo",
-      "status": "Desarrollo",
-      "progress": 65,
-      "description": "Pantalla de mapa interactivo con datos locales y apertura externa a Google Maps/Waze segun auditoria. No tiene capas domain/data propias y depende de cobertura JSON por municipio."
-    },
-    {
-      "name": "Informacion turistica y eventos",
-      "status": "Desarrollo",
-      "progress": 45,
-      "description": "Existe pantalla y JSON locales de eventos, pero no hay capas domain/data y la auditoria indica contenido temporal de 2025 que puede estar desactualizado para 2026."
+      "description": "Módulo existente con diseño antiguo, pendiente migración al nuevo sistema visual."
     },
     {
       "name": "Traductor",
       "status": "Desarrollo",
       "progress": 65,
-      "description": "Feature con repositorio, caso de uso y pantalla. Depende de paquete translator y conectividad externa, por lo que no es completamente local-first."
+      "description": "Funcionalidad existente, pendiente rediseño visual para coherencia."
     },
     {
-      "name": "Planner",
-      "status": "Desarrollo",
-      "progress": 60,
-      "description": "Existe pantalla funcional que carga lugares mediante GetLugares, arma un plan sugerido y ofrece acciones de mapa, Waze y llamada. No se observa persistencia de planes ni motor avanzado de itinerarios."
-    },
-    {
-      "name": "Trips",
-      "status": "Idea",
-      "progress": 25,
-      "description": "Existe pantalla de viajes guardados con estado vacio y acceso al Planner, pero no hay persistencia ni gestion real de viajes guardados."
-    },
-    {
-      "name": "Seguridad",
-      "status": "Desarrollo",
-      "progress": 60,
-      "description": "Existe feature con entidades, configuraciones de contactos/embajadas y bottom sheet que usa perfil de usuario y url_launcher para llamadas. Aun no se observa compartir ubicacion ni una pantalla completa dedicada."
-    },
-    {
-      "name": "Perfil y onboarding",
-      "status": "Desarrollo",
-      "progress": 70,
-      "description": "Feature con entidad, modelo, datasources locales, repositorio, casos de uso, onboarding, perfil y launch decider. Persiste datos en SharedPreferences y define idioma inicial."
-    },
-    {
-      "name": "AI service",
-      "status": "Idea",
-      "progress": 30,
-      "description": "Existe AiService para enriquecer planes mediante OpenAI Responses API usando variables de entorno. No se observa registro en DI ni conexion clara con la UI principal."
-    },
-    {
-      "name": "Backend Spring Boot API",
+      "name": "Backend",
       "status": "Desarrollo",
       "progress": 55,
-      "description": "Backend Java 21 Spring Boot 3.3.5 con controladores, servicios, repositorios, DTOs, JPA, perfiles local/postgres, health, municipios y lugares. Carga datos semilla en perfil local, pero no incluye autenticacion, seguridad, migraciones, Swagger/OpenAPI ni CI."
+      "description": "Integración parcial con datos remotos, aún depende de JSON local como fallback."
     }
   ],
   "missing": [
-    "apps/admin_web no existe aunque aparece como estructura objetivo en README y docs.",
-    ".github/workflows no aparece en el listado, por lo que no hay CI/CD versionado para Flutter, backend o docs.",
-    "La UI no usa el backend como fuente principal de datos; municipios y lugares tienen integracion remota parcial con fallback local.",
-    "Faltan migraciones de base de datos tipo Flyway o Liquibase; el backend depende de configuracion JPA y datos semilla locales.",
-    "Falta autenticacion, autorizacion y capa de seguridad en backend.",
-    "Faltan contratos API documentados con Swagger/OpenAPI o documentacion equivalente.",
-    "Falta centralizar navegacion y estado global de la app.",
-    "Falta unificar modelos duplicados de Municipio y retirar carpetas legacy como lib/Screens, lib/data y lib/models.",
-    "Falta corregir la fuente de datos de parques para que apunte a los assets reales por municipio.",
-    "Falta ampliar cobertura de JSON locales para municipios distintos a Manizales y Chinchina segun modulo.",
-    "Falta persistencia real de viajes guardados en Trips.",
-    "Falta conectar completamente HomeScreen con repositorios, use cases, perfil, municipio e idioma.",
-    "Faltan pruebas suficientes: solo se observa test base de Spring Boot y tests generados de runners moviles."
+    "Guardar itinerarios en Trips",
+    "Edición de perfil desde la app",
+    "Cobertura completa de datos por municipio",
+    "Vista de mapa dedicada para el planner completo",
+    "Migración visual de Parques y Traductor",
+    "Internacionalización completa en todos los módulos"
   ],
   "risks": [
-    "HomeScreen parece funcional visualmente, pero varias acciones son no-op o contenido hardcodeado, lo que puede generar falso positivo de producto listo.",
-    "Los paths de assets y JSON se construyen en varias zonas con nombres de municipio, tildes o convenciones distintas; esto puede romper cargas en runtime.",
-    "ParquesLocalDataSource apunta a archivos no listados en assets, riesgo alto de fallo si se conecta el flujo nuevo.",
-    "Eventos locales fechados en 2025 pueden estar vencidos para el estado actual del proyecto en 2026.",
-    "Backend usa configuracion local y semilla manual; sin migraciones ni seguridad no esta listo para produccion.",
-    "La mezcla entre arquitectura legacy y Clean Architecture aumenta el costo de integrar Home, backend y nuevos modulos.",
-    "Dependencias externas como translator, url_launcher, mapas y OpenAI pueden fallar sin red, permisos o configuracion de entorno.",
-    "No se ejecuto verificacion de build/analyze/test durante este analisis; el porcentaje se basa en lectura estatica del repositorio."
+    "Dependencia de datos locales JSON en algunos municipios",
+    "Inconsistencias si un municipio no tiene contenido suficiente",
+    "Backend aún no consolidado como fuente principal",
+    "Algunas pantallas secundarias aún con diseño antiguo"
   ],
   "nextSteps": [
-    "Corregir ParquesLocalDataSource para usar assets/json/municipios/parques/{municipio}_{locale}.json o ajustar los assets reales esperados.",
-    "Conectar HomeScreen a flujos reales priorizando mapa, actividades, lugares y planner, eliminando botones no-op.",
-    "Definir una fuente unica de municipio/idioma desde UserProfile y usar slugs estables en lugar de strings libres.",
-    "Unificar modelos de Municipio y migrar progresivamente codigo legacy de lib/Screens, lib/data y lib/models.",
-    "Consolidar estrategia local/remota para municipios y lugares, luego ampliar backend a actividades, parques, eventos y mapa.",
-    "Agregar migraciones de base de datos, Swagger/OpenAPI, perfiles por entorno y seguridad basica al backend.",
-    "Crear workflows de CI para flutter analyze/test/build y mvn verify.",
-    "Actualizar o remover eventos locales vencidos y definir politica de vigencia de contenido turistico.",
-    "Implementar persistencia de Trips o marcar la pantalla explicitamente como placeholder hasta que exista el flujo.",
-    "Agregar pruebas enfocadas en datasources, repositorios, rutas criticas de UI y endpoints backend."
+    "Implementar guardado real de Trips",
+    "Agregar edición de perfil",
+    "Migrar módulo de Parques al design system",
+    "Migrar Traductor al nuevo diseño",
+    "Mejorar cobertura de datos por municipio",
+    "Optimizar integración con backend",
+    "Preparar demo comercial y material de venta"
   ]
 }
