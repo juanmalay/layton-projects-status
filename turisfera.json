@@ -1,118 +1,155 @@
 {
   "name": "Turisfera",
-  "status": "MVP",
-  "progress": 78,
-  "type": "Producto",
+  "status": "MVP visual principal completo",
+  "progress": 86,
+  "type": "Producto turistico movil en Flutter",
   "priority": "Alta",
-  "summary": "Aplicación de turismo móvil enfocada en exploración, planificación y experiencia local por municipio. El MVP ya cuenta con Home dinámico por destino, clima en tiempo real, planner interactivo, onboarding rediseñado y módulos principales funcionales sin datos falsos.",
-  "version": "0.9.0",
+  "summary": "Turisfera tiene el MVP visual principal completo y esta lista visualmente para demo comercial. La app Flutter ya cuenta con design system aplicado, tema global, componentes Turisfera reutilizables y no quedan modulos visibles importantes con diseno antiguo dentro del recorrido principal. Home esta redisenado con clima por municipio, cambio de destino, carrusel, datos reales y navegacion a detalle. Onboarding, servicios, actividades, parques, traductor, planner, trips, perfil, seguridad y eventos estan alineados visualmente. Planner genera una ruta sugerida interactiva y permite guardarla en Trips; Trips usa SharedPreferences para mostrar, eliminar y abrir rutas. Perfil muestra datos reales y tiene pantalla de edicion. El producto completo sigue en consolidacion por pendientes funcionales: backend consolidado, mayor cobertura de datos por municipio, persistencia mas robusta de trips, mapa dedicado para rutas completas, i18n completa, CI/CD y builds.",
+  "version": "Flutter 1.0.0+1 / Backend 0.0.1-SNAPSHOT",
   "modules": [
     {
-      "name": "Sistema de diseño",
-      "status": "Activo",
+      "name": "Monorepo y documentacion",
+      "status": "Desarrollo",
+      "progress": 65,
+      "description": "El repo contiene app Flutter, backend Spring Boot, docs y archivo de estado. La documentacion base existe, pero falta convertirla en documentacion operativa completa por modulo, builds, demo y API."
+    },
+    {
+      "name": "App movil Flutter",
+      "status": "MVP visual principal completo",
       "progress": 90,
-      "description": "Design system implementado y aplicado en la mayoría de pantallas principales con componentes reutilizables."
+      "description": "La app movil concentra el valor principal del producto y ya tiene el recorrido principal migrado visualmente para demo comercial. Sigue siendo local-first, con JSON y SharedPreferences en varios flujos, por lo que aun no representa un producto completo escalable."
+    },
+    {
+      "name": "Sistema de diseno",
+      "status": "MVP listo",
+      "progress": 95,
+      "description": "Se crearon AppColors, AppSpacing, AppTextStyles, AppRadius, AppShadows, AppTheme y componentes Turisfera como scaffold, app bar, cards, botones, chips, empty states y feature cards. El tema global esta conectado en MaterialApp y las pantallas principales ya lo usan dentro del recorrido principal."
     },
     {
       "name": "Home",
-      "status": "Activo",
-      "progress": 90,
-      "description": "Pantalla principal rediseñada, con clima dinámico por municipio, cambio de destino, recomendaciones reales y sin contenido hardcodeado."
+      "status": "MVP visual listo",
+      "progress": 95,
+      "description": "Home fue redisenado con header limpio, icono de app, nombre Turisfera, clima actual por municipio, cambio de destino, hero como carrusel, datos reales del municipio actual, recomendado para ti, que visitar en el municipio, cards con detalle real y ver todos al listado completo."
     },
     {
       "name": "Onboarding",
-      "status": "Activo",
-      "progress": 85,
-      "description": "Flujo simplificado, sin duplicaciones, con selector de país, municipio y contacto de emergencia, más animaciones y UX mejorada."
+      "status": "MVP visual listo",
+      "progress": 90,
+      "description": "Onboarding fue redisenado con el design system, redujo duplicacion visual, mejora seleccion de pais, idioma y municipio, valida datos necesarios y agrega microanimaciones. Esta listo para demo visual."
     },
     {
-      "name": "Servicios",
-      "status": "Activo",
-      "progress": 82,
-      "description": "Listado y navegación de servicios por municipio, con integración a mapas y llamadas."
+      "name": "Municipios y destino",
+      "status": "MVP parcial",
+      "progress": 84,
+      "description": "La app resuelve municipio actual, permite cambio de destino desde Home y usa ese contexto para clima, datos y navegacion. Aun falta una consolidacion completa con backend y cobertura uniforme para todos los municipios."
+    },
+    {
+      "name": "Servicios y lugares",
+      "status": "MVP visual listo",
+      "progress": 88,
+      "description": "Servicios fue migrado al design system con categorias y listados coherentes. Se corrigieron headers repetidos; la AppBar muestra titulo y municipio, y las cards no duplican el titulo. Las cards de lugares abren detalle real."
     },
     {
       "name": "Actividades",
-      "status": "Activo",
-      "progress": 82,
-      "description": "Listado y detalle de actividades reutilizando estructura de servicios, con información clara y accionable."
-    },
-    {
-      "name": "Mapa",
-      "status": "Activo",
-      "progress": 80,
-      "description": "Mapa interactivo con lugares del municipio, sugerencias y conexión con el planner."
-    },
-    {
-      "name": "Planner",
-      "status": "Activo",
-      "progress": 80,
-      "description": "Generación de itinerarios usando lógica existente, con cards clickeables, bottom sheet de detalle y acciones reales."
-    },
-    {
-      "name": "Trips",
-      "status": "Desarrollo",
-      "progress": 40,
-      "description": "Pantalla ya integrada con empty state profesional, pendiente guardar viajes reales."
-    },
-    {
-      "name": "Perfil",
-      "status": "Desarrollo",
-      "progress": 55,
-      "description": "Muestra datos reales del usuario (país, municipio, idioma, contacto), pendiente edición."
-    },
-    {
-      "name": "Eventos",
-      "status": "Desarrollo",
-      "progress": 60,
-      "description": "Pantalla funcional basada en JSON por municipio, mejorada visualmente."
-    },
-    {
-      "name": "Seguridad",
-      "status": "Activo",
-      "progress": 75,
-      "description": "Acceso a emergencias y embajadas, integrado con el flujo principal."
+      "status": "MVP visual listo",
+      "progress": 88,
+      "description": "Actividades fue migrado al mismo patron visual de Servicios. Listado y detalle fueron redisenados, se corrigieron headers duplicados y se conservan filtros y acciones existentes."
     },
     {
       "name": "Parques",
-      "status": "Desarrollo",
-      "progress": 45,
-      "description": "Módulo existente con diseño antiguo, pendiente migración al nuevo sistema visual."
+      "status": "MVP visual listo con pendiente de datos",
+      "progress": 84,
+      "description": "Parques fue migrado al design system con listado y detalle actualizados. Mantiene navegacion, filtros, Waze y Google Maps. No se agrego llamada porque el modelo no tiene telefono. Queda pendiente validar y robustecer la fuente de datos por municipio."
+    },
+    {
+      "name": "Mapa",
+      "status": "MVP parcial",
+      "progress": 82,
+      "description": "El mapa mantiene la logica existente y apertura externa. Es suficiente para demo, pero falta una vista dedicada y mas rica para ruta completa desde Trips/Planner."
+    },
+    {
+      "name": "Eventos",
+      "status": "MVP visual parcial",
+      "progress": 73,
+      "description": "Eventos fue alineado visualmente y usa datos por municipio. Aun requiere mejor cobertura, vigencia de datos y una fuente mas robusta para producto completo."
     },
     {
       "name": "Traductor",
-      "status": "Desarrollo",
-      "progress": 65,
-      "description": "Funcionalidad existente, pendiente rediseño visual para coherencia."
+      "status": "MVP visual listo",
+      "progress": 84,
+      "description": "Traductor fue migrado visualmente al sistema Turisfera, conserva la logica existente de traduccion y escucha, y se ajusto la voz para que sea mas suave. Depende de servicios externos y capacidades del dispositivo."
     },
     {
-      "name": "Backend",
-      "status": "Desarrollo",
+      "name": "Planner",
+      "status": "MVP funcional",
+      "progress": 87,
+      "description": "Planner es interactivo, muestra ruta sugerida, tiene cards clickeables, conserva acciones existentes y permite guardar rutas en Trips. Usa logica local existente; no incorpora IA externa nueva en el flujo principal."
+    },
+    {
+      "name": "Trips",
+      "status": "MVP funcional basico",
+      "progress": 68,
+      "description": "Trips ya no es placeholder: muestra rutas guardadas desde SharedPreferences, permite eliminar rutas y abrir mapa/ruta. Es valido para MVP, pero falta persistencia mas robusta, sincronizacion futura, edicion y una experiencia mas completa de viaje."
+    },
+    {
+      "name": "Perfil",
+      "status": "MVP parcial",
+      "progress": 72,
+      "description": "Perfil ya no es placeholder: muestra datos reales guardados como pais, idioma, municipio, contacto y telefono de emergencia, y permite navegar a la pantalla de edicion de perfil. Sigue pendiente cuenta/autenticacion remota y sincronizacion backend."
+    },
+    {
+      "name": "Seguridad",
+      "status": "MVP visual parcial",
+      "progress": 80,
+      "description": "Seguridad fue alineado visualmente y mantiene su logica existente de contactos y acciones. Falta una experiencia completa de emergencia, ubicacion compartida, seguimiento e integracion backend."
+    },
+    {
+      "name": "AI service",
+      "status": "Idea tecnica",
+      "progress": 35,
+      "description": "Existe una base tecnica para OpenAI, pero el Planner actual funciona con logica existente local y no depende de IA externa nueva. No debe contarse como funcionalidad principal lista."
+    },
+    {
+      "name": "Backend Spring Boot API",
+      "status": "Desarrollo parcial",
       "progress": 55,
-      "description": "Integración parcial con datos remotos, aún depende de JSON local como fallback."
+      "description": "Backend parcial con municipios, lugares, health, servicios, repositorios y perfiles local/postgres. No esta consolidado como fuente principal de datos ni cubre todos los modulos del producto."
+    },
+    {
+      "name": "Calidad, pruebas y CI/CD",
+      "status": "Pendiente",
+      "progress": 40,
+      "description": "Hay configuracion base, pero faltan workflows de CI/CD, pruebas suficientes y preparacion formal de builds para demo/distribucion."
     }
   ],
   "missing": [
-    "Guardar itinerarios en Trips",
-    "Edición de perfil desde la app",
-    "Cobertura completa de datos por municipio",
-    "Vista de mapa dedicada para el planner completo",
-    "Migración visual de Parques y Traductor",
-    "Internacionalización completa en todos los módulos"
+    "Persistencia mas robusta para Trips y preparacion para sincronizacion futura.",
+    "Vista dedicada de mapa para ruta completa desde Planner/Trips.",
+    "Mayor cobertura de datos por municipio en servicios, actividades, parques, mapa y eventos.",
+    "Consolidar backend como fuente principal de datos.",
+    "Completar internacionalizacion en todos los modulos y textos visibles.",
+    "CI/CD y preparacion formal de builds para demo o distribucion.",
+    "Pruebas automatizadas para flujos criticos de Home, Planner, Trips, Perfil y datasources.",
+    "Limpieza gradual de codigo legacy y modelos duplicados.",
+    "Contratos API, migraciones, seguridad y autenticacion en backend."
   ],
   "risks": [
-    "Dependencia de datos locales JSON en algunos municipios",
-    "Inconsistencias si un municipio no tiene contenido suficiente",
-    "Backend aún no consolidado como fuente principal",
-    "Algunas pantallas secundarias aún con diseño antiguo"
+    "Algunos municipios pueden no tener datos suficientes para una demo completa.",
+    "Varias fuentes aun dependen de JSON local o fallback, lo que limita escalabilidad y actualizacion de contenido.",
+    "Backend no esta totalmente consolidado ni es la fuente principal de la app.",
+    "Trips usa SharedPreferences, adecuado para MVP pero insuficiente como solucion final.",
+    "Servicios externos como clima, traduccion, voz, Google Maps y Waze pueden depender de red, permisos o disponibilidad del dispositivo.",
+    "Sin CI/CD ni pruebas suficientes, los cambios visuales y de navegacion pueden romper flujos sin deteccion temprana.",
+    "La mezcla con codigo legacy puede aumentar el costo de mantenimiento hasta que se limpie."
   ],
   "nextSteps": [
-    "Implementar guardado real de Trips",
-    "Agregar edición de perfil",
-    "Migrar módulo de Parques al design system",
-    "Migrar Traductor al nuevo diseño",
-    "Mejorar cobertura de datos por municipio",
-    "Optimizar integración con backend",
-    "Preparar demo comercial y material de venta"
+    "Mejorar Trips con persistencia mas robusta, validaciones y preparacion para sincronizacion.",
+    "Crear una vista dedicada para ver la ruta completa en mapa desde Planner/Trips.",
+    "Ampliar y auditar datos por municipio para los modulos principales de la demo.",
+    "Completar internacionalizacion de textos visibles en pantallas migradas.",
+    "Preparar builds de demo y configurar CI/CD minimo.",
+    "Agregar pruebas para Home, Planner, Trips, Perfil y datasources locales.",
+    "Definir plan de consolidacion backend como fuente principal.",
+    "Limpiar codigo legacy despues de estabilizar la demo comercial."
   ]
 }
