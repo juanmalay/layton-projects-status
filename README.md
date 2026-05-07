@@ -1,4 +1,4 @@
-﻿# Estado de proyectos de Layton
+# Estado de proyectos de Layton
 
 Esta repo publica funciona como fuente de datos estatica para el portafolio personal de Layton. Su objetivo es exponer un radar publico de proyectos sin depender de tokens, credenciales, APIs privadas ni acceso directo a repositorios privados.
 
