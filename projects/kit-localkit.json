@@ -1,26 +1,47 @@
 {
-    "id":  "kit-localkit",
-    "name":  "Kit LocalKit",
-    "type":  "Base reutilizable / producto web",
-    "status":  "En desarrollo",
-    "progress":  55,
-    "repositoryVisibility":  "public",
-    "repositoryUrl":  "https://github.com/juanmalay/localkit",
-    "publicDemoUrl":  null,
-    "dataUrl":  "projects/kit-localkit.json",
-    "techStack":  [
-                      "Next.js",
-                      "Spring Boot",
-                      "PostgreSQL",
-                      "Tailwind"
-                  ],
-    "summary":  "Kit base para crear sitios o soluciones web para negocios locales con frontend y backend reutilizable.",
-    "currentBlock":  "Pendiente de separar datos publicos de configuraciones privadas.",
-    "nextStep":  "Actualizar avances del frontend publico y backend reutilizable.",
-    "lastCommit":  {
-                       "message":  "Pendiente de sincronizacion",
-                       "date":  "",
-                       "branch":  "main"
-                   },
-    "updatedAt":  "2026-05-07T07:36:10.5720617-05:00"
+  "id": "kit-localkit",
+  "name": "Kit LocalKit",
+  "type": "Base reutilizable / producto web",
+  "status": "En desarrollo",
+  "progress": 55,
+  "repositoryVisibility": "public",
+  "repositoryUrl": "https://github.com/juanmalay/localkit",
+  "publicDemoUrl": null,
+  "techStack": [
+    "Next.js",
+    "Spring Boot",
+    "PostgreSQL",
+    "Tailwind"
+  ],
+  "summary": "Kit base para crear sitios o soluciones web para negocios locales con frontend, backend y arquitectura reutilizable.",
+  "currentBlock": "Base tecnica funcional con frontend, backend y despliegue preparado.",
+  "nextStep": "Pulir demo publica, documentacion y casos de uso comerciales.",
+  "lastCommit": {
+    "message": "Pending synchronization",
+    "date": "",
+    "branch": "main"
+  },
+  "milestones": [
+    {
+      "title": "Backend Spring Boot creado",
+      "status": "completed",
+      "date": ""
+    },
+    {
+      "title": "Frontend Next.js creado",
+      "status": "completed",
+      "date": ""
+    },
+    {
+      "title": "Endpoint de negocios por slug",
+      "status": "completed",
+      "date": ""
+    },
+    {
+      "title": "Configuracion para despliegue web",
+      "status": "completed",
+      "date": ""
+    }
+  ],
+  "updatedAt": "2026-05-07T16:41:39.1139247-05:00"
 }

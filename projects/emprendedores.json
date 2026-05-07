@@ -1,24 +1,35 @@
 {
-    "id":  "emprendedores",
-    "name":  "Emprendedores",
-    "type":  "Producto propio",
-    "status":  "Idea / Desarrollo inicial",
-    "progress":  5,
-    "repositoryVisibility":  "private",
-    "repositoryUrl":  null,
-    "publicDemoUrl":  null,
-    "dataUrl":  "projects/emprendedores.json",
-    "techStack":  [
-                      "Flutter",
-                      "Spring Boot"
-                  ],
-    "summary":  "Proyecto orientado a emprendedores, negocios o gestion de iniciativas comerciales.",
-    "currentBlock":  "Pendiente de definir caso de uso principal.",
-    "nextStep":  "Validar enfoque, usuario objetivo y primer flujo de producto.",
-    "lastCommit":  {
-                       "message":  "Pendiente de sincronizacion",
-                       "date":  "",
-                       "branch":  "main"
-                   },
-    "updatedAt":  "2026-05-07T07:36:10.5720617-05:00"
+  "id": "emprendedores",
+  "name": "Emprendedores",
+  "type": "Producto propio",
+  "status": "Idea / Desarrollo inicial",
+  "progress": 5,
+  "repositoryVisibility": "private",
+  "repositoryUrl": null,
+  "publicDemoUrl": null,
+  "techStack": [
+    "Flutter",
+    "Spring Boot"
+  ],
+  "summary": "Proyecto orientado a emprendedores, negocios y gestion de iniciativas comerciales.",
+  "currentBlock": "Idea inicial registrada.",
+  "nextStep": "Definir problema, publico objetivo, modulos MVP y propuesta comercial.",
+  "lastCommit": {
+    "message": "Pending synchronization",
+    "date": "",
+    "branch": "main"
+  },
+  "milestones": [
+    {
+      "title": "Idea registrada",
+      "status": "completed",
+      "date": ""
+    },
+    {
+      "title": "Pendiente investigacion de producto",
+      "status": "planned",
+      "date": ""
+    }
+  ],
+  "updatedAt": "2026-05-07T16:41:39.1139247-05:00"
 }

@@ -1,23 +1,44 @@
 {
-    "id":  "organizador-archivos",
-    "name":  "Organizador de Archivos",
-    "type":  "Aplicacion de escritorio",
-    "status":  "En desarrollo",
-    "progress":  35,
-    "repositoryVisibility":  "private",
-    "repositoryUrl":  null,
-    "publicDemoUrl":  null,
-    "dataUrl":  "projects/organizador-archivos.json",
-    "techStack":  [
-                      "Flutter Desktop"
-                  ],
-    "summary":  "Aplicacion para clasificar, renombrar, previsualizar y organizar archivos desde escritorio.",
-    "currentBlock":  "Pendiente de consolidar alcance frente al proyecto Archivos.",
-    "nextStep":  "Definir diferencias funcionales y estado real del prototipo.",
-    "lastCommit":  {
-                       "message":  "Pendiente de sincronizacion",
-                       "date":  "",
-                       "branch":  "main"
-                   },
-    "updatedAt":  "2026-05-07T07:36:10.5720617-05:00"
+  "id": "organizador-archivos",
+  "name": "Organizador de Archivos",
+  "type": "Aplicacion de escritorio",
+  "status": "En desarrollo",
+  "progress": 35,
+  "repositoryVisibility": "private",
+  "repositoryUrl": null,
+  "publicDemoUrl": null,
+  "techStack": [
+    "Flutter Desktop"
+  ],
+  "summary": "Aplicacion para clasificar, renombrar, previsualizar y organizar archivos desde escritorio.",
+  "currentBlock": "Funcionalidades base de organizacion y vista previa.",
+  "nextStep": "Mejorar sincronizacion, experiencia visual y acciones masivas.",
+  "lastCommit": {
+    "message": "Pending synchronization",
+    "date": "",
+    "branch": "main"
+  },
+  "milestones": [
+    {
+      "title": "App desktop inicial",
+      "status": "completed",
+      "date": ""
+    },
+    {
+      "title": "Vista previa de archivos",
+      "status": "completed",
+      "date": ""
+    },
+    {
+      "title": "Creacion de carpetas",
+      "status": "in_progress",
+      "date": ""
+    },
+    {
+      "title": "Organizacion basica",
+      "status": "in_progress",
+      "date": ""
+    }
+  ],
+  "updatedAt": "2026-05-07T16:41:39.1139247-05:00"
 }

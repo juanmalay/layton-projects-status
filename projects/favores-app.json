@@ -1,24 +1,35 @@
 {
-    "id":  "favores-app",
-    "name":  "Favores App",
-    "type":  "Producto propio",
-    "status":  "Idea / Desarrollo inicial",
-    "progress":  5,
-    "repositoryVisibility":  "private",
-    "repositoryUrl":  null,
-    "publicDemoUrl":  null,
-    "dataUrl":  "projects/favores-app.json",
-    "techStack":  [
-                      "Flutter",
-                      "Spring Boot"
-                  ],
-    "summary":  "Aplicacion para gestionar favores, solicitudes, ayudas o servicios entre usuarios.",
-    "currentBlock":  "Pendiente de validar problema, usuarios y alcance del MVP.",
-    "nextStep":  "Redactar propuesta de valor y flujo inicial.",
-    "lastCommit":  {
-                       "message":  "Pendiente de sincronizacion",
-                       "date":  "",
-                       "branch":  "main"
-                   },
-    "updatedAt":  "2026-05-07T07:36:10.5720617-05:00"
+  "id": "favores-app",
+  "name": "Favores App",
+  "type": "Producto propio",
+  "status": "Idea / Desarrollo inicial",
+  "progress": 5,
+  "repositoryVisibility": "private",
+  "repositoryUrl": null,
+  "publicDemoUrl": null,
+  "techStack": [
+    "Flutter",
+    "Spring Boot"
+  ],
+  "summary": "Aplicacion para gestionar favores, solicitudes, ayudas o servicios entre usuarios.",
+  "currentBlock": "Idea inicial y definicion de oportunidad.",
+  "nextStep": "Definir problema principal, usuarios, flujo MVP y modelo de datos.",
+  "lastCommit": {
+    "message": "Pending synchronization",
+    "date": "",
+    "branch": "main"
+  },
+  "milestones": [
+    {
+      "title": "Idea registrada",
+      "status": "completed",
+      "date": ""
+    },
+    {
+      "title": "Pendiente definicion MVP",
+      "status": "planned",
+      "date": ""
+    }
+  ],
+  "updatedAt": "2026-05-07T16:41:39.1139247-05:00"
 }

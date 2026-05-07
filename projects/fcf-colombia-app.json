@@ -1,23 +1,39 @@
 {
-    "id":  "fcf-colombia-app",
-    "name":  "FCF Colombia App",
-    "type":  "Producto deportivo",
-    "status":  "En desarrollo",
-    "progress":  20,
-    "repositoryVisibility":  "private",
-    "repositoryUrl":  null,
-    "publicDemoUrl":  null,
-    "dataUrl":  "projects/fcf-colombia-app.json",
-    "techStack":  [
-                      "Flutter"
-                  ],
-    "summary":  "Aplicacion orientada a la Seleccion Colombia, partidos, estadisticas, noticias y experiencia para hinchas.",
-    "currentBlock":  "Pendiente de consolidar datos publicos y flujos principales.",
-    "nextStep":  "Actualizar estado de modulos visibles de la app.",
-    "lastCommit":  {
-                       "message":  "Pendiente de sincronizacion",
-                       "date":  "",
-                       "branch":  "main"
-                   },
-    "updatedAt":  "2026-05-07T07:36:10.5720617-05:00"
+  "id": "fcf-colombia-app",
+  "name": "FCF Colombia App",
+  "type": "Producto deportivo",
+  "status": "En desarrollo",
+  "progress": 20,
+  "repositoryVisibility": "private",
+  "repositoryUrl": null,
+  "publicDemoUrl": null,
+  "techStack": [
+    "Flutter"
+  ],
+  "summary": "Aplicacion orientada a la Seleccion Colombia, hinchas, partidos, calendario, estadisticas, noticias y experiencia deportiva.",
+  "currentBlock": "Diseno de experiencia, estructura visual y definicion de modulos.",
+  "nextStep": "Conectar la app con backend y datos deportivos reales.",
+  "lastCommit": {
+    "message": "Pending synchronization",
+    "date": "",
+    "branch": "main"
+  },
+  "milestones": [
+    {
+      "title": "Definicion visual inicial",
+      "status": "completed",
+      "date": ""
+    },
+    {
+      "title": "Diseno de experiencia para hinchas",
+      "status": "in_progress",
+      "date": ""
+    },
+    {
+      "title": "Planeacion de modulos principales",
+      "status": "in_progress",
+      "date": ""
+    }
+  ],
+  "updatedAt": "2026-05-07T16:41:39.1139247-05:00"
 }

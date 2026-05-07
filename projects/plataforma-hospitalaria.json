@@ -1,25 +1,41 @@
 {
-    "id":  "plataforma-hospitalaria",
-    "name":  "Plataforma Hospitalaria",
-    "type":  "Producto empresarial",
-    "status":  "Investigacion / Diseno inicial",
-    "progress":  8,
-    "repositoryVisibility":  "private",
-    "repositoryUrl":  null,
-    "publicDemoUrl":  null,
-    "dataUrl":  "projects/plataforma-hospitalaria.json",
-    "techStack":  [
-                      "Spring Boot",
-                      "Flutter",
-                      "PostgreSQL"
-                  ],
-    "summary":  "Sistema multiplataforma para gestion operativa, administrativa y clinica de hospitales y clinicas.",
-    "currentBlock":  "Pendiente de cerrar alcance funcional inicial.",
-    "nextStep":  "Documentar modulos base y prioridades del primer prototipo.",
-    "lastCommit":  {
-                       "message":  "Pendiente de sincronizacion",
-                       "date":  "",
-                       "branch":  "main"
-                   },
-    "updatedAt":  "2026-05-07T07:36:10.5720617-05:00"
+  "id": "plataforma-hospitalaria",
+  "name": "Plataforma Hospitalaria",
+  "type": "Producto empresarial",
+  "status": "Investigacion / Diseno inicial",
+  "progress": 8,
+  "repositoryVisibility": "private",
+  "repositoryUrl": null,
+  "publicDemoUrl": null,
+  "techStack": [
+    "Spring Boot",
+    "Flutter",
+    "PostgreSQL"
+  ],
+  "summary": "Sistema multiplataforma para apoyar la gestion administrativa, operativa y clinica de hospitales y clinicas.",
+  "currentBlock": "Investigacion de modulos hospitalarios, roles y alcance comercial.",
+  "nextStep": "Definir MVP, modulos prioritarios y arquitectura de datos.",
+  "lastCommit": {
+    "message": "Pending synchronization",
+    "date": "",
+    "branch": "main"
+  },
+  "milestones": [
+    {
+      "title": "Investigacion inicial de sistemas hospitalarios",
+      "status": "in_progress",
+      "date": ""
+    },
+    {
+      "title": "Identificacion de roles",
+      "status": "in_progress",
+      "date": ""
+    },
+    {
+      "title": "Definicion preliminar de alcance",
+      "status": "planned",
+      "date": ""
+    }
+  ],
+  "updatedAt": "2026-05-07T16:41:39.1139247-05:00"
 }

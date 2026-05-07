@@ -1,23 +1,39 @@
 {
-    "id":  "archivos",
-    "name":  "Archivos",
-    "type":  "Aplicacion de escritorio",
-    "status":  "En desarrollo",
-    "progress":  25,
-    "repositoryVisibility":  "private",
-    "repositoryUrl":  null,
-    "publicDemoUrl":  null,
-    "dataUrl":  "projects/archivos.json",
-    "techStack":  [
-                      "Flutter Desktop"
-                  ],
-    "summary":  "Aplicacion para organizar, visualizar y gestionar archivos personales o empresariales.",
-    "currentBlock":  "Pendiente de definir version demostrable sin datos privados.",
-    "nextStep":  "Documentar funciones principales y avance del prototipo.",
-    "lastCommit":  {
-                       "message":  "Pendiente de sincronizacion",
-                       "date":  "",
-                       "branch":  "main"
-                   },
-    "updatedAt":  "2026-05-07T07:36:10.5720617-05:00"
+  "id": "archivos",
+  "name": "Archivos",
+  "type": "Aplicacion de escritorio",
+  "status": "En desarrollo",
+  "progress": 25,
+  "repositoryVisibility": "private",
+  "repositoryUrl": null,
+  "publicDemoUrl": null,
+  "techStack": [
+    "Flutter Desktop"
+  ],
+  "summary": "Aplicacion de escritorio para organizar, visualizar y gestionar archivos personales o empresariales.",
+  "currentBlock": "Exploracion de organizacion, navegacion y vista previa de archivos.",
+  "nextStep": "Consolidar estructura de carpetas, acciones y experiencia de usuario.",
+  "lastCommit": {
+    "message": "Pending synchronization",
+    "date": "",
+    "branch": "main"
+  },
+  "milestones": [
+    {
+      "title": "Exploracion inicial de app desktop",
+      "status": "completed",
+      "date": ""
+    },
+    {
+      "title": "Vista previa de archivos",
+      "status": "in_progress",
+      "date": ""
+    },
+    {
+      "title": "Gestion basica de carpetas",
+      "status": "in_progress",
+      "date": ""
+    }
+  ],
+  "updatedAt": "2026-05-07T16:41:39.1139247-05:00"
 }

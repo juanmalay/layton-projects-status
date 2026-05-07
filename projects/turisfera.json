@@ -1,25 +1,57 @@
 {
-    "id":  "turisfera",
-    "name":  "Turisfera",
-    "type":  "Producto turistico",
-    "status":  "En desarrollo avanzado",
-    "progress":  85,
-    "repositoryVisibility":  "private",
-    "repositoryUrl":  null,
-    "publicDemoUrl":  null,
-    "dataUrl":  "projects/turisfera.json",
-    "techStack":  [
-                      "Flutter",
-                      "Spring Boot",
-                      "PostgreSQL"
-                  ],
-    "summary":  "Aplicacion turistica multiplataforma con servicios, actividades, parques, mapas, eventos, traductor, seguridad y planificador.",
-    "currentBlock":  "Pendiente de sincronizar estado publico con los ultimos modulos cerrados.",
-    "nextStep":  "Actualizar resumen de funcionalidades listas y pendientes.",
-    "lastCommit":  {
-                       "message":  "Pendiente de sincronizacion",
-                       "date":  "",
-                       "branch":  "main"
-                   },
-    "updatedAt":  "2026-05-07T07:36:10.5720617-05:00"
+  "id": "turisfera",
+  "name": "Turisfera",
+  "type": "Producto turistico",
+  "status": "En desarrollo avanzado",
+  "progress": 85,
+  "repositoryVisibility": "private",
+  "repositoryUrl": null,
+  "publicDemoUrl": null,
+  "techStack": [
+    "Flutter",
+    "Spring Boot",
+    "PostgreSQL",
+    "Google Maps"
+  ],
+  "summary": "Aplicacion turistica multiplataforma con servicios, actividades, parques, mapas, eventos, traductor, seguridad, perfiles y planificador turistico.",
+  "currentBlock": "Cierre visual, consolidacion del backend y preparacion para producto vendible.",
+  "nextStep": "Completar integracion backend, validar datos reales y preparar demo comercial.",
+  "lastCommit": {
+    "message": "Pending synchronization",
+    "date": "",
+    "branch": "main"
+  },
+  "milestones": [
+    {
+      "title": "Diseno visual principal avanzado",
+      "status": "completed",
+      "date": ""
+    },
+    {
+      "title": "Modulos turisticos implementados",
+      "status": "completed",
+      "date": ""
+    },
+    {
+      "title": "Planificador turistico local",
+      "status": "completed",
+      "date": ""
+    },
+    {
+      "title": "Mapa interactivo",
+      "status": "completed",
+      "date": ""
+    },
+    {
+      "title": "Internacionalizacion",
+      "status": "completed",
+      "date": ""
+    },
+    {
+      "title": "Backend en construccion",
+      "status": "in_progress",
+      "date": ""
+    }
+  ],
+  "updatedAt": "2026-05-07T16:41:39.1139247-05:00"
 }

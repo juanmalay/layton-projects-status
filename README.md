@@ -1,38 +1,32 @@
 # Estado de proyectos de Layton
 
-Esta repo publica funciona como fuente de datos estatica para el portafolio personal de Layton. Su objetivo es exponer un radar publico de proyectos sin depender de tokens, credenciales, APIs privadas ni acceso directo a repositorios privados.
+`layton-projects-status` es la fuente publica de datos para Layton Projects Mission Control. La repo expone archivos JSON estaticos con informacion segura sobre el estado, avance, tecnologia y proximos pasos de los proyectos del ecosistema Layton.
 
-## Como lo consume el portafolio
+No contiene credenciales, URLs privadas, configuraciones internas ni datos sensibles. Su objetivo es alimentar una vista publica y controlada, no sincronizar automaticamente todo lo que exista en repositorios privados.
 
-La app del portafolio puede leer los datos desde GitHub Raw usando el indice principal:
+## Consumo desde el dashboard
 
-```text
-projects.json
-```
-
-Cada item del indice apunta a una ficha individual mediante `dataUrl`:
+La app `layton-projects-dashboard`, visualmente llamada Layton Projects Mission Control, consume el indice principal desde GitHub Raw:
 
 ```text
-projects/{project-id}.json
+https://raw.githubusercontent.com/juanmalay/layton-projects-status/main/projects.json
 ```
 
-Flujo recomendado:
+Cada item del indice incluye un `dataUrl` relativo hacia su ficha individual:
 
-1. Cargar `projects.json` para listar tarjetas, filtros y resumen general.
-2. Usar `dataUrl` para consultar `projects/{project-id}.json` cuando se abra el detalle de un proyecto.
-3. Tratar esta repo como fuente publica de solo lectura desde el cliente.
+```text
+projects/{id}.json
+```
 
-## Como actualizar manualmente un proyecto
+El flujo de consumo actual es:
 
-1. Editar el proyecto individual en `projects/{project-id}.json`.
-2. Actualizar el item correspondiente en `projects.json` con los mismos valores publicos.
-3. Cambiar `updatedAt` usando fecha ISO.
-4. Validar que el JSON sea valido antes de publicar.
-5. Hacer commit y push solo despues de revisar que no haya informacion sensible.
+1. Cargar `projects.json` para pintar tarjetas, filtros, resumenes, KPIs y paneles generales.
+2. Leer `dataUrl` cuando el usuario abre el detalle premium de un proyecto.
+3. Consultar `projects/{id}.json` para mostrar milestones, bloqueo actual, proximo paso y metadatos ampliados.
 
-## Campos publicos
+## Editar `projects.json`
 
-Cada proyecto expone estos campos:
+`projects.json` es el indice publico. Cada item debe conservar estos campos principales:
 
 - `id`
 - `name`
@@ -50,25 +44,107 @@ Cada proyecto expone estos campos:
 - `lastCommit`
 - `updatedAt`
 
-Los repos privados deben usar `repositoryVisibility: "private"` y `repositoryUrl: null`.
+Reglas para editarlo:
 
-## Que no debe ponerse aqui
+1. No cambiar un `id` salvo que exista un error evidente y tambien se renombre su archivo individual.
+2. Mantener `dataUrl` como `projects/{id}.json`.
+3. Para repos privados, usar `repositoryVisibility: "private"` y `repositoryUrl: null`.
+4. Para repos publicos, usar solo URLs publicas conocidas.
+5. Actualizar `updatedAt` en formato ISO.
+6. No inventar commits reales; si no hay sincronizacion segura, usar `Pending synchronization`.
+
+## Editar archivos individuales
+
+Cada archivo en `/projects` representa el detalle publico de un proyecto. La ruta debe coincidir con el `dataUrl` del indice:
+
+```text
+projects/plataforma-hseq.json
+projects/turisfera.json
+projects/layton-projects-dashboard.json
+```
+
+La estructura esperada por archivo es:
+
+```json
+{
+  "id": "",
+  "name": "",
+  "type": "",
+  "status": "",
+  "progress": 0,
+  "repositoryVisibility": "private",
+  "repositoryUrl": null,
+  "publicDemoUrl": null,
+  "techStack": [],
+  "summary": "",
+  "currentBlock": "",
+  "nextStep": "",
+  "lastCommit": {
+    "message": "Pending synchronization",
+    "date": "",
+    "branch": "main"
+  },
+  "milestones": [
+    {
+      "title": "",
+      "status": "",
+      "date": ""
+    }
+  ],
+  "updatedAt": ""
+}
+```
+
+Los archivos individuales pueden tener mas detalle que `projects.json`, especialmente en `milestones`, siempre que la informacion sea publica y segura.
+
+## Informacion publica permitida
+
+Se puede publicar:
+
+- Nombre publico del proyecto.
+- Tipo de producto o categoria.
+- Estado general y porcentaje de avance aproximado.
+- Stack tecnologico general.
+- Resumen funcional sin clientes, secretos ni infraestructura privada.
+- Bloqueo actual descrito en terminos de producto o tecnologia.
+- Proximo paso general.
+- URL de repositorios publicos.
+- URL de demos publicas, si existen y son seguras.
+- Milestones sin fechas inventadas ni datos internos.
+
+## Informacion que nunca debe publicarse
 
 No publicar:
 
-- Tokens, API keys, credenciales o secretos.
+- Tokens, API keys, secretos, contrasenas o credenciales.
+- Variables `.env`.
 - URLs privadas de despliegue, bases de datos, paneles internos o ambientes no publicos.
 - Nombres de clientes, contratos, documentos internos o informacion confidencial.
-- Commits inventados o datos que parezcan verificables si no fueron sincronizados.
-- Variables `.env`, backups, dumps de base de datos o archivos de configuracion privada.
+- Dumps, backups, rutas locales sensibles o capturas con datos privados.
+- Commits inventados o fechas especificas no verificadas.
+- Infraestructura privada de repositorios marcados como privados.
 
-## Plan futuro
+## Flujo manual actual
 
-Mas adelante se puede automatizar la sincronizacion con GitHub Actions para:
+El mantenimiento por ahora es manual:
 
-- Leer metadatos publicos de repos permitidos.
-- Actualizar fechas y ultimo commit solo cuando la informacion sea publica y segura.
-- Validar estructura JSON en cada pull request.
-- Publicar reportes de consistencia entre `projects.json` y `projects/`.
+1. Editar el archivo individual en `projects/{id}.json`.
+2. Actualizar el item correspondiente en `projects.json`.
+3. Usar `updatedAt` con fecha ISO.
+4. Validar que todos los JSON sean validos.
+5. Validar que cada `dataUrl` exista.
+6. Revisar que no haya informacion sensible.
+7. Hacer commit y push solo despues de revisar el diff.
 
-Por ahora la actualizacion es manual para mantener control total sobre lo que se expone publicamente.
+## Futuro flujo con GitHub Actions
+
+Mas adelante se puede automatizar parte del proceso con GitHub Actions:
+
+- Validar JSON en cada pull request.
+- Verificar que cada `dataUrl` apunte a un archivo existente.
+- Comparar IDs entre `projects.json` y `/projects`.
+- Bloquear patrones de secretos conocidos.
+- Sincronizar ultimo commit solo para repos publicos permitidos.
+- Generar un reporte de consistencia antes de publicar cambios.
+
+La automatizacion debe seguir priorizando control editorial y seguridad publica sobre sincronizacion total.

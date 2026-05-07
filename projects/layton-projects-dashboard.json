@@ -1,24 +1,50 @@
 {
-    "id":  "layton-projects-dashboard",
-    "name":  "Layton Projects Dashboard",
-    "type":  "Dashboard personal",
-    "status":  "En desarrollo",
-    "progress":  35,
-    "repositoryVisibility":  "public",
-    "repositoryUrl":  "https://github.com/juanmalay/layton-projects-dashboard",
-    "publicDemoUrl":  null,
-    "dataUrl":  "projects/layton-projects-dashboard.json",
-    "techStack":  [
-                      "Flutter",
-                      "GitHub Raw JSON"
-                  ],
-    "summary":  "Dashboard para visualizar el estado de proyectos, avances, tecnologias y proximos pasos del ecosistema Layton.",
-    "currentBlock":  "Pendiente de conectar de forma estable con la fuente publica de datos.",
-    "nextStep":  "Consumir projects.json y las fichas individuales desde GitHub Raw.",
-    "lastCommit":  {
-                       "message":  "Pendiente de sincronizacion",
-                       "date":  "",
-                       "branch":  "main"
-                   },
-    "updatedAt":  "2026-05-07T07:36:10.5720617-05:00"
+  "id": "layton-projects-dashboard",
+  "name": "Layton Projects Mission Control",
+  "type": "Dashboard personal",
+  "status": "En desarrollo",
+  "progress": 45,
+  "repositoryVisibility": "public",
+  "repositoryUrl": "https://github.com/juanmalay/layton-projects-dashboard",
+  "publicDemoUrl": null,
+  "techStack": [
+    "Flutter",
+    "GitHub Raw JSON"
+  ],
+  "summary": "Dashboard personal para visualizar proyectos, estado, progreso, tecnologias, proximos pasos y metricas del ecosistema Layton.",
+  "currentBlock": "Dashboard principal y detalle premium por proyecto implementados.",
+  "nextStep": "Enriquecer datos publicos, validar detalle por proyecto y preparar release v0.1.0.",
+  "lastCommit": {
+    "message": "Pending synchronization",
+    "date": "",
+    "branch": "main"
+  },
+  "milestones": [
+    {
+      "title": "Consumo remoto desde projects.json",
+      "status": "completed",
+      "date": ""
+    },
+    {
+      "title": "Fallback local",
+      "status": "completed",
+      "date": ""
+    },
+    {
+      "title": "KPI cards y paneles analiticos",
+      "status": "completed",
+      "date": ""
+    },
+    {
+      "title": "Working Today",
+      "status": "completed",
+      "date": ""
+    },
+    {
+      "title": "Detalle premium por proyecto",
+      "status": "completed",
+      "date": ""
+    }
+  ],
+  "updatedAt": "2026-05-07T16:41:39.1139247-05:00"
 }

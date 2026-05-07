@@ -1,25 +1,41 @@
 {
-    "id":  "plataforma-hseq",
-    "name":  "Plataforma HSEQ",
-    "type":  "Producto empresarial",
-    "status":  "En desarrollo",
-    "progress":  15,
-    "repositoryVisibility":  "private",
-    "repositoryUrl":  null,
-    "publicDemoUrl":  null,
-    "dataUrl":  "projects/plataforma-hseq.json",
-    "techStack":  [
-                      "Spring Boot",
-                      "Flutter",
-                      "PostgreSQL"
-                  ],
-    "summary":  "Plataforma SGI/HSEQ para empresas, entidades publicas, colegios, clinicas, contratistas e industrias.",
-    "currentBlock":  "Pendiente de publicar un resumen de modulos sin informacion sensible.",
-    "nextStep":  "Definir alcance publico del MVP y actualizar hitos principales.",
-    "lastCommit":  {
-                       "message":  "Pendiente de sincronizacion",
-                       "date":  "",
-                       "branch":  "main"
-                   },
-    "updatedAt":  "2026-05-07T07:36:10.5720617-05:00"
+  "id": "plataforma-hseq",
+  "name": "Plataforma HSEQ",
+  "type": "Producto empresarial",
+  "status": "En desarrollo",
+  "progress": 15,
+  "repositoryVisibility": "private",
+  "repositoryUrl": null,
+  "publicDemoUrl": null,
+  "techStack": [
+    "Spring Boot",
+    "Flutter",
+    "PostgreSQL"
+  ],
+  "summary": "Plataforma SGI/HSEQ orientada a empresas, entidades publicas, colegios, clinicas, contratistas e industrias para gestionar seguridad y salud en el trabajo, calidad, ambiente, auditorias, documentos, indicadores y planes de accion.",
+  "currentBlock": "Base tecnica, investigacion funcional y estructura inicial del producto.",
+  "nextStep": "Definir modulos MVP, entidades base, roles y arquitectura inicial backend/frontend.",
+  "lastCommit": {
+    "message": "Pending synchronization",
+    "date": "",
+    "branch": "main"
+  },
+  "milestones": [
+    {
+      "title": "Investigacion inicial del dominio HSEQ / SGI",
+      "status": "completed",
+      "date": ""
+    },
+    {
+      "title": "Definicion de modulos base",
+      "status": "in_progress",
+      "date": ""
+    },
+    {
+      "title": "Creacion de estructura inicial del proyecto",
+      "status": "planned",
+      "date": ""
+    }
+  ],
+  "updatedAt": "2026-05-07T16:41:39.1139247-05:00"
 }
