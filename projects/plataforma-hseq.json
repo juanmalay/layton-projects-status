@@ -1,0 +1,25 @@
+﻿{
+    "id":  "plataforma-hseq",
+    "name":  "Plataforma HSEQ",
+    "type":  "Producto empresarial",
+    "status":  "En desarrollo",
+    "progress":  15,
+    "repositoryVisibility":  "private",
+    "repositoryUrl":  null,
+    "publicDemoUrl":  null,
+    "dataUrl":  "projects/plataforma-hseq.json",
+    "techStack":  [
+                      "Spring Boot",
+                      "Flutter",
+                      "PostgreSQL"
+                  ],
+    "summary":  "Plataforma SGI/HSEQ para empresas, entidades publicas, colegios, clinicas, contratistas e industrias.",
+    "currentBlock":  "Pendiente de publicar un resumen de modulos sin informacion sensible.",
+    "nextStep":  "Definir alcance publico del MVP y actualizar hitos principales.",
+    "lastCommit":  {
+                       "message":  "Pendiente de sincronizacion",
+                       "date":  "",
+                       "branch":  "main"
+                   },
+    "updatedAt":  "2026-05-07T07:36:10.5720617-05:00"
+}

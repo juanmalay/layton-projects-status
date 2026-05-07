@@ -1,0 +1,24 @@
+﻿{
+    "id":  "fcf-colombia-backend",
+    "name":  "FCF Colombia Backend",
+    "type":  "Backend de producto",
+    "status":  "En desarrollo",
+    "progress":  25,
+    "repositoryVisibility":  "private",
+    "repositoryUrl":  null,
+    "publicDemoUrl":  null,
+    "dataUrl":  "projects/fcf-colombia-backend.json",
+    "techStack":  [
+                      "Spring Boot",
+                      "PostgreSQL"
+                  ],
+    "summary":  "Backend para gestionar equipos, jugadores, partidos, datos deportivos y servicios de la app FCF Colombia.",
+    "currentBlock":  "Pendiente de estabilizar contratos publicos de datos.",
+    "nextStep":  "Registrar endpoints o capacidades publicas sin exponer infraestructura privada.",
+    "lastCommit":  {
+                       "message":  "Pendiente de sincronizacion",
+                       "date":  "",
+                       "branch":  "main"
+                   },
+    "updatedAt":  "2026-05-07T07:36:10.5720617-05:00"
+}

@@ -1,0 +1,24 @@
+﻿{
+    "id":  "layton-projects-status",
+    "name":  "Estado de proyectos de Layton",
+    "type":  "Fuente publica de datos",
+    "status":  "En desarrollo",
+    "progress":  20,
+    "repositoryVisibility":  "public",
+    "repositoryUrl":  "https://github.com/juanmalay/layton-projects-status",
+    "publicDemoUrl":  null,
+    "dataUrl":  "projects/layton-projects-status.json",
+    "techStack":  [
+                      "JSON",
+                      "GitHub"
+                  ],
+    "summary":  "Repositorio publico usado como fuente JSON para alimentar el radar de proyectos del portafolio Layton.",
+    "currentBlock":  "Pendiente de completar datos publicos y proceso manual de actualizacion.",
+    "nextStep":  "Mantener projects.json sincronizado con los archivos individuales.",
+    "lastCommit":  {
+                       "message":  "Pendiente de sincronizacion",
+                       "date":  "",
+                       "branch":  "main"
+                   },
+    "updatedAt":  "2026-05-07T07:36:10.5720617-05:00"
+}

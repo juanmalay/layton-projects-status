@@ -1,0 +1,25 @@
+﻿{
+    "id":  "plataforma-hospitalaria",
+    "name":  "Plataforma Hospitalaria",
+    "type":  "Producto empresarial",
+    "status":  "Investigacion / Diseno inicial",
+    "progress":  8,
+    "repositoryVisibility":  "private",
+    "repositoryUrl":  null,
+    "publicDemoUrl":  null,
+    "dataUrl":  "projects/plataforma-hospitalaria.json",
+    "techStack":  [
+                      "Spring Boot",
+                      "Flutter",
+                      "PostgreSQL"
+                  ],
+    "summary":  "Sistema multiplataforma para gestion operativa, administrativa y clinica de hospitales y clinicas.",
+    "currentBlock":  "Pendiente de cerrar alcance funcional inicial.",
+    "nextStep":  "Documentar modulos base y prioridades del primer prototipo.",
+    "lastCommit":  {
+                       "message":  "Pendiente de sincronizacion",
+                       "date":  "",
+                       "branch":  "main"
+                   },
+    "updatedAt":  "2026-05-07T07:36:10.5720617-05:00"
+}

@@ -1,0 +1,25 @@
+﻿{
+    "id":  "turisfera",
+    "name":  "Turisfera",
+    "type":  "Producto turistico",
+    "status":  "En desarrollo avanzado",
+    "progress":  85,
+    "repositoryVisibility":  "private",
+    "repositoryUrl":  null,
+    "publicDemoUrl":  null,
+    "dataUrl":  "projects/turisfera.json",
+    "techStack":  [
+                      "Flutter",
+                      "Spring Boot",
+                      "PostgreSQL"
+                  ],
+    "summary":  "Aplicacion turistica multiplataforma con servicios, actividades, parques, mapas, eventos, traductor, seguridad y planificador.",
+    "currentBlock":  "Pendiente de sincronizar estado publico con los ultimos modulos cerrados.",
+    "nextStep":  "Actualizar resumen de funcionalidades listas y pendientes.",
+    "lastCommit":  {
+                       "message":  "Pendiente de sincronizacion",
+                       "date":  "",
+                       "branch":  "main"
+                   },
+    "updatedAt":  "2026-05-07T07:36:10.5720617-05:00"
+}

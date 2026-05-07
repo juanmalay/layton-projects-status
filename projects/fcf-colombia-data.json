@@ -1,0 +1,24 @@
+﻿{
+    "id":  "fcf-colombia-data",
+    "name":  "FCF Colombia Data",
+    "type":  "Data / contenido",
+    "status":  "En desarrollo",
+    "progress":  15,
+    "repositoryVisibility":  "private",
+    "repositoryUrl":  null,
+    "publicDemoUrl":  null,
+    "dataUrl":  "projects/fcf-colombia-data.json",
+    "techStack":  [
+                      "JSON",
+                      "Data"
+                  ],
+    "summary":  "Repositorio de datos para alimentar la aplicacion FCF Colombia con informacion deportiva estructurada.",
+    "currentBlock":  "Pendiente de definir que datos pueden publicarse sin restricciones.",
+    "nextStep":  "Clasificar fuentes y estructura de datos permitida para consumo publico.",
+    "lastCommit":  {
+                       "message":  "Pendiente de sincronizacion",
+                       "date":  "",
+                       "branch":  "main"
+                   },
+    "updatedAt":  "2026-05-07T07:36:10.5720617-05:00"
+}

@@ -1,0 +1,26 @@
+﻿{
+    "id":  "kit-localkit",
+    "name":  "Kit LocalKit",
+    "type":  "Base reutilizable / producto web",
+    "status":  "En desarrollo",
+    "progress":  55,
+    "repositoryVisibility":  "public",
+    "repositoryUrl":  "https://github.com/juanmalay/localkit",
+    "publicDemoUrl":  null,
+    "dataUrl":  "projects/kit-localkit.json",
+    "techStack":  [
+                      "Next.js",
+                      "Spring Boot",
+                      "PostgreSQL",
+                      "Tailwind"
+                  ],
+    "summary":  "Kit base para crear sitios o soluciones web para negocios locales con frontend y backend reutilizable.",
+    "currentBlock":  "Pendiente de separar datos publicos de configuraciones privadas.",
+    "nextStep":  "Actualizar avances del frontend publico y backend reutilizable.",
+    "lastCommit":  {
+                       "message":  "Pendiente de sincronizacion",
+                       "date":  "",
+                       "branch":  "main"
+                   },
+    "updatedAt":  "2026-05-07T07:36:10.5720617-05:00"
+}

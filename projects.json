@@ -1,0 +1,316 @@
+﻿[
+    {
+        "id":  "plataforma-hseq",
+        "name":  "Plataforma HSEQ",
+        "type":  "Producto empresarial",
+        "status":  "En desarrollo",
+        "progress":  15,
+        "repositoryVisibility":  "private",
+        "repositoryUrl":  null,
+        "publicDemoUrl":  null,
+        "dataUrl":  "projects/plataforma-hseq.json",
+        "techStack":  [
+                          "Spring Boot",
+                          "Flutter",
+                          "PostgreSQL"
+                      ],
+        "summary":  "Plataforma SGI/HSEQ para empresas, entidades publicas, colegios, clinicas, contratistas e industrias.",
+        "currentBlock":  "Pendiente de publicar un resumen de modulos sin informacion sensible.",
+        "nextStep":  "Definir alcance publico del MVP y actualizar hitos principales.",
+        "lastCommit":  {
+                           "message":  "Pendiente de sincronizacion",
+                           "date":  "",
+                           "branch":  "main"
+                       },
+        "updatedAt":  "2026-05-07T07:36:10.5720617-05:00"
+    },
+    {
+        "id":  "plataforma-hospitalaria",
+        "name":  "Plataforma Hospitalaria",
+        "type":  "Producto empresarial",
+        "status":  "Investigacion / Diseno inicial",
+        "progress":  8,
+        "repositoryVisibility":  "private",
+        "repositoryUrl":  null,
+        "publicDemoUrl":  null,
+        "dataUrl":  "projects/plataforma-hospitalaria.json",
+        "techStack":  [
+                          "Spring Boot",
+                          "Flutter",
+                          "PostgreSQL"
+                      ],
+        "summary":  "Sistema multiplataforma para gestion operativa, administrativa y clinica de hospitales y clinicas.",
+        "currentBlock":  "Pendiente de cerrar alcance funcional inicial.",
+        "nextStep":  "Documentar modulos base y prioridades del primer prototipo.",
+        "lastCommit":  {
+                           "message":  "Pendiente de sincronizacion",
+                           "date":  "",
+                           "branch":  "main"
+                       },
+        "updatedAt":  "2026-05-07T07:36:10.5720617-05:00"
+    },
+    {
+        "id":  "fcf-colombia-app",
+        "name":  "FCF Colombia App",
+        "type":  "Producto deportivo",
+        "status":  "En desarrollo",
+        "progress":  20,
+        "repositoryVisibility":  "private",
+        "repositoryUrl":  null,
+        "publicDemoUrl":  null,
+        "dataUrl":  "projects/fcf-colombia-app.json",
+        "techStack":  [
+                          "Flutter"
+                      ],
+        "summary":  "Aplicacion orientada a la Seleccion Colombia, partidos, estadisticas, noticias y experiencia para hinchas.",
+        "currentBlock":  "Pendiente de consolidar datos publicos y flujos principales.",
+        "nextStep":  "Actualizar estado de modulos visibles de la app.",
+        "lastCommit":  {
+                           "message":  "Pendiente de sincronizacion",
+                           "date":  "",
+                           "branch":  "main"
+                       },
+        "updatedAt":  "2026-05-07T07:36:10.5720617-05:00"
+    },
+    {
+        "id":  "fcf-colombia-backend",
+        "name":  "FCF Colombia Backend",
+        "type":  "Backend de producto",
+        "status":  "En desarrollo",
+        "progress":  25,
+        "repositoryVisibility":  "private",
+        "repositoryUrl":  null,
+        "publicDemoUrl":  null,
+        "dataUrl":  "projects/fcf-colombia-backend.json",
+        "techStack":  [
+                          "Spring Boot",
+                          "PostgreSQL"
+                      ],
+        "summary":  "Backend para gestionar equipos, jugadores, partidos, datos deportivos y servicios de la app FCF Colombia.",
+        "currentBlock":  "Pendiente de estabilizar contratos publicos de datos.",
+        "nextStep":  "Registrar endpoints o capacidades publicas sin exponer infraestructura privada.",
+        "lastCommit":  {
+                           "message":  "Pendiente de sincronizacion",
+                           "date":  "",
+                           "branch":  "main"
+                       },
+        "updatedAt":  "2026-05-07T07:36:10.5720617-05:00"
+    },
+    {
+        "id":  "archivos",
+        "name":  "Archivos",
+        "type":  "Aplicacion de escritorio",
+        "status":  "En desarrollo",
+        "progress":  25,
+        "repositoryVisibility":  "private",
+        "repositoryUrl":  null,
+        "publicDemoUrl":  null,
+        "dataUrl":  "projects/archivos.json",
+        "techStack":  [
+                          "Flutter Desktop"
+                      ],
+        "summary":  "Aplicacion para organizar, visualizar y gestionar archivos personales o empresariales.",
+        "currentBlock":  "Pendiente de definir version demostrable sin datos privados.",
+        "nextStep":  "Documentar funciones principales y avance del prototipo.",
+        "lastCommit":  {
+                           "message":  "Pendiente de sincronizacion",
+                           "date":  "",
+                           "branch":  "main"
+                       },
+        "updatedAt":  "2026-05-07T07:36:10.5720617-05:00"
+    },
+    {
+        "id":  "favores-app",
+        "name":  "Favores App",
+        "type":  "Producto propio",
+        "status":  "Idea / Desarrollo inicial",
+        "progress":  5,
+        "repositoryVisibility":  "private",
+        "repositoryUrl":  null,
+        "publicDemoUrl":  null,
+        "dataUrl":  "projects/favores-app.json",
+        "techStack":  [
+                          "Flutter",
+                          "Spring Boot"
+                      ],
+        "summary":  "Aplicacion para gestionar favores, solicitudes, ayudas o servicios entre usuarios.",
+        "currentBlock":  "Pendiente de validar problema, usuarios y alcance del MVP.",
+        "nextStep":  "Redactar propuesta de valor y flujo inicial.",
+        "lastCommit":  {
+                           "message":  "Pendiente de sincronizacion",
+                           "date":  "",
+                           "branch":  "main"
+                       },
+        "updatedAt":  "2026-05-07T07:36:10.5720617-05:00"
+    },
+    {
+        "id":  "turisfera",
+        "name":  "Turisfera",
+        "type":  "Producto turistico",
+        "status":  "En desarrollo avanzado",
+        "progress":  85,
+        "repositoryVisibility":  "private",
+        "repositoryUrl":  null,
+        "publicDemoUrl":  null,
+        "dataUrl":  "projects/turisfera.json",
+        "techStack":  [
+                          "Flutter",
+                          "Spring Boot",
+                          "PostgreSQL"
+                      ],
+        "summary":  "Aplicacion turistica multiplataforma con servicios, actividades, parques, mapas, eventos, traductor, seguridad y planificador.",
+        "currentBlock":  "Pendiente de sincronizar estado publico con los ultimos modulos cerrados.",
+        "nextStep":  "Actualizar resumen de funcionalidades listas y pendientes.",
+        "lastCommit":  {
+                           "message":  "Pendiente de sincronizacion",
+                           "date":  "",
+                           "branch":  "main"
+                       },
+        "updatedAt":  "2026-05-07T07:36:10.5720617-05:00"
+    },
+    {
+        "id":  "layton-projects-dashboard",
+        "name":  "Layton Projects Dashboard",
+        "type":  "Dashboard personal",
+        "status":  "En desarrollo",
+        "progress":  35,
+        "repositoryVisibility":  "public",
+        "repositoryUrl":  "https://github.com/juanmalay/layton-projects-dashboard",
+        "publicDemoUrl":  null,
+        "dataUrl":  "projects/layton-projects-dashboard.json",
+        "techStack":  [
+                          "Flutter",
+                          "GitHub Raw JSON"
+                      ],
+        "summary":  "Dashboard para visualizar el estado de proyectos, avances, tecnologias y proximos pasos del ecosistema Layton.",
+        "currentBlock":  "Pendiente de conectar de forma estable con la fuente publica de datos.",
+        "nextStep":  "Consumir projects.json y las fichas individuales desde GitHub Raw.",
+        "lastCommit":  {
+                           "message":  "Pendiente de sincronizacion",
+                           "date":  "",
+                           "branch":  "main"
+                       },
+        "updatedAt":  "2026-05-07T07:36:10.5720617-05:00"
+    },
+    {
+        "id":  "layton-projects-status",
+        "name":  "Estado de proyectos de Layton",
+        "type":  "Fuente publica de datos",
+        "status":  "En desarrollo",
+        "progress":  20,
+        "repositoryVisibility":  "public",
+        "repositoryUrl":  "https://github.com/juanmalay/layton-projects-status",
+        "publicDemoUrl":  null,
+        "dataUrl":  "projects/layton-projects-status.json",
+        "techStack":  [
+                          "JSON",
+                          "GitHub"
+                      ],
+        "summary":  "Repositorio publico usado como fuente JSON para alimentar el radar de proyectos del portafolio Layton.",
+        "currentBlock":  "Pendiente de completar datos publicos y proceso manual de actualizacion.",
+        "nextStep":  "Mantener projects.json sincronizado con los archivos individuales.",
+        "lastCommit":  {
+                           "message":  "Pendiente de sincronizacion",
+                           "date":  "",
+                           "branch":  "main"
+                       },
+        "updatedAt":  "2026-05-07T07:36:10.5720617-05:00"
+    },
+    {
+        "id":  "kit-localkit",
+        "name":  "Kit LocalKit",
+        "type":  "Base reutilizable / producto web",
+        "status":  "En desarrollo",
+        "progress":  55,
+        "repositoryVisibility":  "public",
+        "repositoryUrl":  "https://github.com/juanmalay/localkit",
+        "publicDemoUrl":  null,
+        "dataUrl":  "projects/kit-localkit.json",
+        "techStack":  [
+                          "Next.js",
+                          "Spring Boot",
+                          "PostgreSQL",
+                          "Tailwind"
+                      ],
+        "summary":  "Kit base para crear sitios o soluciones web para negocios locales con frontend y backend reutilizable.",
+        "currentBlock":  "Pendiente de separar datos publicos de configuraciones privadas.",
+        "nextStep":  "Actualizar avances del frontend publico y backend reutilizable.",
+        "lastCommit":  {
+                           "message":  "Pendiente de sincronizacion",
+                           "date":  "",
+                           "branch":  "main"
+                       },
+        "updatedAt":  "2026-05-07T07:36:10.5720617-05:00"
+    },
+    {
+        "id":  "fcf-colombia-data",
+        "name":  "FCF Colombia Data",
+        "type":  "Data / contenido",
+        "status":  "En desarrollo",
+        "progress":  15,
+        "repositoryVisibility":  "private",
+        "repositoryUrl":  null,
+        "publicDemoUrl":  null,
+        "dataUrl":  "projects/fcf-colombia-data.json",
+        "techStack":  [
+                          "JSON",
+                          "Data"
+                      ],
+        "summary":  "Repositorio de datos para alimentar la aplicacion FCF Colombia con informacion deportiva estructurada.",
+        "currentBlock":  "Pendiente de definir que datos pueden publicarse sin restricciones.",
+        "nextStep":  "Clasificar fuentes y estructura de datos permitida para consumo publico.",
+        "lastCommit":  {
+                           "message":  "Pendiente de sincronizacion",
+                           "date":  "",
+                           "branch":  "main"
+                       },
+        "updatedAt":  "2026-05-07T07:36:10.5720617-05:00"
+    },
+    {
+        "id":  "organizador-archivos",
+        "name":  "Organizador de Archivos",
+        "type":  "Aplicacion de escritorio",
+        "status":  "En desarrollo",
+        "progress":  35,
+        "repositoryVisibility":  "private",
+        "repositoryUrl":  null,
+        "publicDemoUrl":  null,
+        "dataUrl":  "projects/organizador-archivos.json",
+        "techStack":  [
+                          "Flutter Desktop"
+                      ],
+        "summary":  "Aplicacion para clasificar, renombrar, previsualizar y organizar archivos desde escritorio.",
+        "currentBlock":  "Pendiente de consolidar alcance frente al proyecto Archivos.",
+        "nextStep":  "Definir diferencias funcionales y estado real del prototipo.",
+        "lastCommit":  {
+                           "message":  "Pendiente de sincronizacion",
+                           "date":  "",
+                           "branch":  "main"
+                       },
+        "updatedAt":  "2026-05-07T07:36:10.5720617-05:00"
+    },
+    {
+        "id":  "emprendedores",
+        "name":  "Emprendedores",
+        "type":  "Producto propio",
+        "status":  "Idea / Desarrollo inicial",
+        "progress":  5,
+        "repositoryVisibility":  "private",
+        "repositoryUrl":  null,
+        "publicDemoUrl":  null,
+        "dataUrl":  "projects/emprendedores.json",
+        "techStack":  [
+                          "Flutter",
+                          "Spring Boot"
+                      ],
+        "summary":  "Proyecto orientado a emprendedores, negocios o gestion de iniciativas comerciales.",
+        "currentBlock":  "Pendiente de definir caso de uso principal.",
+        "nextStep":  "Validar enfoque, usuario objetivo y primer flujo de producto.",
+        "lastCommit":  {
+                           "message":  "Pendiente de sincronizacion",
+                           "date":  "",
+                           "branch":  "main"
+                       },
+        "updatedAt":  "2026-05-07T07:36:10.5720617-05:00"
+    }
+]

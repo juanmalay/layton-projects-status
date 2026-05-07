@@ -1,0 +1,23 @@
+﻿{
+    "id":  "fcf-colombia-app",
+    "name":  "FCF Colombia App",
+    "type":  "Producto deportivo",
+    "status":  "En desarrollo",
+    "progress":  20,
+    "repositoryVisibility":  "private",
+    "repositoryUrl":  null,
+    "publicDemoUrl":  null,
+    "dataUrl":  "projects/fcf-colombia-app.json",
+    "techStack":  [
+                      "Flutter"
+                  ],
+    "summary":  "Aplicacion orientada a la Seleccion Colombia, partidos, estadisticas, noticias y experiencia para hinchas.",
+    "currentBlock":  "Pendiente de consolidar datos publicos y flujos principales.",
+    "nextStep":  "Actualizar estado de modulos visibles de la app.",
+    "lastCommit":  {
+                       "message":  "Pendiente de sincronizacion",
+                       "date":  "",
+                       "branch":  "main"
+                   },
+    "updatedAt":  "2026-05-07T07:36:10.5720617-05:00"
+}

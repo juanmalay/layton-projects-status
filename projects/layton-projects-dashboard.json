@@ -1,0 +1,24 @@
+﻿{
+    "id":  "layton-projects-dashboard",
+    "name":  "Layton Projects Dashboard",
+    "type":  "Dashboard personal",
+    "status":  "En desarrollo",
+    "progress":  35,
+    "repositoryVisibility":  "public",
+    "repositoryUrl":  "https://github.com/juanmalay/layton-projects-dashboard",
+    "publicDemoUrl":  null,
+    "dataUrl":  "projects/layton-projects-dashboard.json",
+    "techStack":  [
+                      "Flutter",
+                      "GitHub Raw JSON"
+                  ],
+    "summary":  "Dashboard para visualizar el estado de proyectos, avances, tecnologias y proximos pasos del ecosistema Layton.",
+    "currentBlock":  "Pendiente de conectar de forma estable con la fuente publica de datos.",
+    "nextStep":  "Consumir projects.json y las fichas individuales desde GitHub Raw.",
+    "lastCommit":  {
+                       "message":  "Pendiente de sincronizacion",
+                       "date":  "",
+                       "branch":  "main"
+                   },
+    "updatedAt":  "2026-05-07T07:36:10.5720617-05:00"
+}
