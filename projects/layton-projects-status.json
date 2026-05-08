@@ -15,8 +15,8 @@
   "currentBlock": "Estructura publica de datos y JSON individuales por proyecto.",
   "nextStep": "Enriquecer cada archivo de proyecto con milestones, proximos pasos y datos publicos seguros.",
   "lastCommit": {
-    "message": "Merge branch 'main' of https://github.com/juanmalay/layton-projects-status",
-    "date": "2026-05-08T08:44:50-05:00",
+    "message": "chore: sync kit-localkit status",
+    "date": "2026-05-08T22:38:06Z",
     "branch": "main"
   },
   "milestones": [
@@ -41,5 +41,5 @@
       "date": ""
     }
   ],
-  "updatedAt": "2026-05-08T13:45:06.231033+00:00"
+  "updatedAt": "2026-05-08T22:38:21.361184+00:00"
 }
