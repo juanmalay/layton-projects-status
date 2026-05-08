@@ -15,8 +15,8 @@
   "currentBlock": "Estructura publica de datos y JSON individuales por proyecto.",
   "nextStep": "Enriquecer cada archivo de proyecto con milestones, proximos pasos y datos publicos seguros.",
   "lastCommit": {
-    "message": "chore: sync kit-localkit status",
-    "date": "2026-05-08T05:54:17Z",
+    "message": "fix: mark LocalKit repository as private",
+    "date": "2026-05-08T00:55:58-05:00",
     "branch": "main"
   },
   "milestones": [
@@ -41,5 +41,5 @@
       "date": ""
     }
   ],
-  "updatedAt": "2026-05-08T05:54:26.852016+00:00"
+  "updatedAt": "2026-05-08T05:56:08.420138+00:00"
 }
