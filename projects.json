@@ -187,11 +187,11 @@
     "currentBlock": "Dashboard principal y detalle premium por proyecto implementados.",
     "nextStep": "Enriquecer datos publicos, validar detalle por proyecto y preparar release v0.1.0.",
     "lastCommit": {
-      "message": "Pending synchronization",
-      "date": "",
+      "message": "feat: update GitHub Actions workflow to use custom askpass script for authentication during push",
+      "date": "2026-05-07T17:38:50-05:00",
       "branch": "main"
     },
-    "updatedAt": "2026-05-07T16:41:39.1139247-05:00"
+    "updatedAt": "2026-05-08T00:14:18.866709+00:00"
   },
   {
     "id": "layton-projects-status",
