@@ -18,11 +18,11 @@
     "currentBlock": "Base tecnica, investigacion funcional y estructura inicial del producto.",
     "nextStep": "Definir modulos MVP, entidades base, roles y arquitectura inicial backend/frontend.",
     "lastCommit": {
-      "message": "Pending synchronization",
-      "date": "",
+      "message": "feat: add workflow and script for updating public project status metadata",
+      "date": "2026-05-08T06:30:24Z",
       "branch": "main"
     },
-    "updatedAt": "2026-05-07T16:41:39.1139247-05:00"
+    "updatedAt": "2026-05-08T06:30:24Z"
   },
   {
     "id": "plataforma-hospitalaria",
@@ -187,8 +187,8 @@
     "currentBlock": "v0.1.0 released with dashboard, detail view, public JSON source, fallback, documentation and repository sync.",
     "nextStep": "Plan v0.2.0 improvements: advanced filters, manual Working Today priority, more connected repositories and packaged Windows release.",
     "lastCommit": {
-      "message": "feat: add Project Status Sync documentation and update project status sync script",
-      "date": "2026-05-07T21:10:09-05:00",
+      "message": "feat: update ProjectsGridView childAspectRatio for better responsiveness; enhance ProjectCard layout with additional project details",
+      "date": "2026-05-08T02:02:57-05:00",
       "branch": "main"
     },
     "milestones": [
@@ -218,11 +218,11 @@
     "currentBlock": "Estructura publica de datos y JSON individuales por proyecto.",
     "nextStep": "Enriquecer cada archivo de proyecto con milestones, proximos pasos y datos publicos seguros.",
     "lastCommit": {
-      "message": "fix: mark LocalKit repository as private",
-      "date": "2026-05-08T00:55:58-05:00",
+      "message": "chore: sync layton-projects-dashboard status",
+      "date": "2026-05-08T07:03:17Z",
       "branch": "main"
     },
-    "updatedAt": "2026-05-08T05:56:08.420138+00:00"
+    "updatedAt": "2026-05-08T07:03:26.714694+00:00"
   },
   {
     "id": "kit-localkit",
