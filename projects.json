@@ -244,11 +244,11 @@
     "currentBlock": "Base tecnica funcional con frontend, backend y despliegue preparado.",
     "nextStep": "Pulir demo publica, documentacion y casos de uso comerciales.",
     "lastCommit": {
-      "message": "Add GitHub Actions workflow and scripts for syncing project status metadata",
-      "date": "2026-05-07T22:20:27-05:00",
+      "message": "Add public content fields to Business model and database migration",
+      "date": "2026-05-08T17:37:53-05:00",
       "branch": "main"
     },
-    "updatedAt": "2026-05-08T05:54:17.029598+00:00"
+    "updatedAt": "2026-05-08T22:38:06.532302+00:00"
   },
   {
     "id": "fcf-colombia-data",
