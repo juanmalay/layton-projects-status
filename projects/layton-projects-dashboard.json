@@ -15,8 +15,8 @@
   "currentBlock": "Dashboard principal y detalle premium por proyecto implementados.",
   "nextStep": "Enriquecer datos publicos, validar detalle por proyecto y preparar release v0.1.0.",
   "lastCommit": {
-    "message": "Pending synchronization",
-    "date": "",
+    "message": "feat: add Project Status Sync documentation and update project status sync script",
+    "date": "2026-05-07T21:10:09-05:00",
     "branch": "main"
   },
   "milestones": [
@@ -46,5 +46,5 @@
       "date": ""
     }
   ],
-  "updatedAt": "2026-05-07T16:41:39.1139247-05:00"
+  "updatedAt": "2026-05-08T02:10:30.900503+00:00"
 }
