@@ -211,11 +211,11 @@
     "currentBlock": "Estructura publica de datos y JSON individuales por proyecto.",
     "nextStep": "Enriquecer cada archivo de proyecto con milestones, proximos pasos y datos publicos seguros.",
     "lastCommit": {
-      "message": "Pending synchronization",
-      "date": "",
+      "message": "fix: mark LocalKit repository as private",
+      "date": "2026-05-08T00:55:58-05:00",
       "branch": "main"
     },
-    "updatedAt": "2026-05-07T16:41:39.1139247-05:00"
+    "updatedAt": "2026-05-08T05:56:08.420138+00:00"
   },
   {
     "id": "kit-localkit",
@@ -237,11 +237,11 @@
     "currentBlock": "Base tecnica funcional con frontend, backend y despliegue preparado.",
     "nextStep": "Pulir demo publica, documentacion y casos de uso comerciales.",
     "lastCommit": {
-      "message": "Pending synchronization",
-      "date": "",
+      "message": "Add GitHub Actions workflow and scripts for syncing project status metadata",
+      "date": "2026-05-07T22:20:27-05:00",
       "branch": "main"
     },
-    "updatedAt": "2026-05-07T16:41:39.1139247-05:00"
+    "updatedAt": "2026-05-08T05:54:17.029598+00:00"
   },
   {
     "id": "fcf-colombia-data",
