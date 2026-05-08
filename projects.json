@@ -223,8 +223,8 @@
     "type": "Base reutilizable / producto web",
     "status": "En desarrollo",
     "progress": 55,
-    "repositoryVisibility": "public",
-    "repositoryUrl": "https://github.com/juanmalay/localkit",
+    "repositoryVisibility": "private",
+    "repositoryUrl": null,
     "publicDemoUrl": null,
     "dataUrl": "projects/kit-localkit.json",
     "techStack": [
