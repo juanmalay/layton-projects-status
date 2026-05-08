@@ -211,11 +211,11 @@
     "currentBlock": "Estructura publica de datos y JSON individuales por proyecto.",
     "nextStep": "Enriquecer cada archivo de proyecto con milestones, proximos pasos y datos publicos seguros.",
     "lastCommit": {
-      "message": "chore: sync plataforma-hseq status",
-      "date": "2026-05-08T06:30:45Z",
+      "message": "chore: sync layton-projects-dashboard status",
+      "date": "2026-05-08T06:37:40Z",
       "branch": "main"
     },
-    "updatedAt": "2026-05-08T06:31:00.760210+00:00"
+    "updatedAt": "2026-05-08T06:37:56.877466+00:00"
   },
   {
     "id": "kit-localkit",
