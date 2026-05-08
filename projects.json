@@ -18,11 +18,11 @@
     "currentBlock": "Base tecnica, investigacion funcional y estructura inicial del producto.",
     "nextStep": "Definir modulos MVP, entidades base, roles y arquitectura inicial backend/frontend.",
     "lastCommit": {
-      "message": "Pending synchronization",
-      "date": "",
+      "message": "feat: add workflow and script for updating public project status metadata",
+      "date": "2026-05-08T06:30:24Z",
       "branch": "main"
     },
-    "updatedAt": "2026-05-07T16:41:39.1139247-05:00"
+    "updatedAt": "2026-05-08T06:30:24Z"
   },
   {
     "id": "plataforma-hospitalaria",
