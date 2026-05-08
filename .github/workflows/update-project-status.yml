@@ -1,0 +1,51 @@
+name: Update Project Status
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync-status:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout status repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Update public project metadata
+        run: |
+          python scripts/update_project_status.py \
+            --source-repo . \
+            --status-repo . \
+            --project-id layton-projects-status \
+            --detail-path projects/layton-projects-status.json \
+            --branch "${GITHUB_REF_NAME}"
+
+      - name: Validate JSON files
+        run: |
+          python -m json.tool projects.json > /tmp/projects.json
+          python -m json.tool projects/layton-projects-status.json > /tmp/layton-projects-status.json
+
+      - name: Commit and push status changes
+        run: |
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "No status metadata changes to publish."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add projects.json projects/layton-projects-status.json
+          git commit -m "chore: sync layton-projects-status status"
+          git push
