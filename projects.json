@@ -187,11 +187,11 @@
     "currentBlock": "Dashboard principal y detalle premium por proyecto implementados.",
     "nextStep": "Enriquecer datos publicos, validar detalle por proyecto y preparar release v0.1.0.",
     "lastCommit": {
-      "message": "feat: enhance Project Status Sync documentation with current sync status and validation checklist",
-      "date": "2026-05-08T01:37:18-05:00",
+      "message": "feat: update README and documentation for v0.1.0 release; enhance UI layout and project card design",
+      "date": "2026-05-08T01:59:00-05:00",
       "branch": "main"
     },
-    "updatedAt": "2026-05-08T06:37:40.774238+00:00"
+    "updatedAt": "2026-05-08T06:59:22.159559+00:00"
   },
   {
     "id": "layton-projects-status",
