@@ -244,11 +244,11 @@
     "currentBlock": "Base tecnica funcional con frontend, backend y despliegue preparado.",
     "nextStep": "Pulir demo publica, documentacion y casos de uso comerciales.",
     "lastCommit": {
-      "message": "fix: Correct quote syntax in TestimonialsSection component",
-      "date": "2026-05-10T12:26:37-05:00",
+      "message": "feat: Add service duration and ID to services in JSON payloads for improved service management",
+      "date": "2026-05-10T12:32:40-05:00",
       "branch": "main"
     },
-    "updatedAt": "2026-05-10T17:26:50.620953+00:00"
+    "updatedAt": "2026-05-10T17:32:52.138527+00:00"
   },
   {
     "id": "fcf-colombia-data",
