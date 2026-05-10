@@ -16,7 +16,7 @@
   "nextStep": "Enriquecer cada archivo de proyecto con milestones, proximos pasos y datos publicos seguros.",
   "lastCommit": {
     "message": "chore: sync kit-localkit status",
-    "date": "2026-05-10T17:58:32Z",
+    "date": "2026-05-10T18:12:21Z",
     "branch": "main"
   },
   "milestones": [
@@ -41,5 +41,5 @@
       "date": ""
     }
   ],
-  "updatedAt": "2026-05-10T17:58:41.443632+00:00"
+  "updatedAt": "2026-05-10T18:12:30.639752+00:00"
 }
