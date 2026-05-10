@@ -17,8 +17,8 @@
   "currentBlock": "Base tecnica funcional con frontend, backend y despliegue preparado.",
   "nextStep": "Pulir demo publica, documentacion y casos de uso comerciales.",
   "lastCommit": {
-    "message": "feat: Add service duration and ID to services in JSON payloads for improved service management",
-    "date": "2026-05-10T12:32:40-05:00",
+    "message": "feat: Update sections to enhance content for Localkit users with tailored messaging and visuals",
+    "date": "2026-05-10T12:45:10-05:00",
     "branch": "main"
   },
   "milestones": [
@@ -43,5 +43,5 @@
       "date": ""
     }
   ],
-  "updatedAt": "2026-05-10T17:32:52.138527+00:00"
+  "updatedAt": "2026-05-10T17:45:23.245218+00:00"
 }
